@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+border-bottom: 1px #fff solid;
+}
+
+.navbar{
+    font-family: "Poppins";
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    background-color: #222831;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h1{
+    margin-left: 80px;
+    font-weight: bold;
+}
+.navbar ul li a{
+    color: #fff;
+
+
+}
+
+.navbar-ul{
+    display: flex;
+    font-size: 18px;
+    font-weight: regular;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-right: 100px;
+}
+
+/* ----------------------_________SECTION 1-HOME PAGE____________---------------------- */
+.section1container{
+   margin-left: 100px;
+}
+#homepage{
+
+    background-color:#222831 ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#homepage h1{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-family: "Poppins";
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+   
+}
+
+
+#homepage h1 span{
+    margin-bottom: 0px;
+    font-family: "Poppins";
+    color: #00ADB5;
+    font-size: 45px;
+    font-weight: bold;
+   
+}
+
+#homepage p{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-family: "Poppins";
+    color: #fff;
+    font-size: 20px;
+    font-weight: regular;
+    width: 600px;
+}
