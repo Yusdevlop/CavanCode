@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style/reset.css">
     <link rel="stylesheet" href="./src/style/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>CavanCode</title>
-</head>
 
+</head>
 <body>
+   
+ 
     <header>
-        <div class="navbar">
+        <div  class="navbar">
             <h1>CavanCode</h1>
             <nav>
                 <ul class="navbar-ul">
@@ -27,9 +30,16 @@
         <div class="section1container">
             <div class="homepage-content">
                 <div>
-                    <h1>Kod sədası ilə gələn dizayn.<br> <span class="homepage">CavanCode-ə salam deyin</span></h1>
+
+                    <h1 class="typewriter">Kod sədası ilə gələn dizayn.<br> <span id="" class="homepage">CavanCode-ə salam deyin</span></h1>
+                    <button  class="contanct-btn">Əlaqə</button>
+                    <a href="#about-content"><svg id="scroll-arrow"  data-aos="fade-down" data-aos-duration="1000" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-square-fill" style="color: #ffffff;height: 100px;
+    width: 100px;margin-left: 30%;margin-top: 250px;position: absolute;" viewBox="0 0 16 16">
+  <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0"/>
+</svg></a>
+         
                 </div>
-                <div class="homepage-img">
+                       <div class="homepage-img">
                     <img src="./src/img/doodles mixed round.png" alt="">
                     <img class="homepage-img-man" src="./src/img/Group 2346.png" alt="">
                 </div>
@@ -38,17 +48,28 @@
         </div>
     </section>
     </div>
+    <!-- __________________________________________ABOUT _____________________________________ -->
     <section id="about">
         <div class="section2container">
-            <h1>Biz <span>kimik</span>?</h1>
-            <p>
-                CavaCode – dizaynı funksional koda çevirən gənc və enerjili <br> dev komandasıdır. Figma-dan real vebsayta
-                gedən prosesi <br> sadələşdiririk, nəticədə isə sürətli, responsiv və modern <br>saytlar ortaya çıxarırıq. Kiçik
-                biznesdən şəxsi layihəyə qədər <br> – sayt istəyirsinizsə, sizə uyğun həlli bizdə tapacaqsınız.
-            </p>
+            <div id="about-content" class="about-content">
+                <div>
+                    <h1 data-aos="fade-up-right" data-aos-duration="500" >Biz <span >kimik</span>?</h1>
+                    <p data-aos-duration="500" data-aos="fade-up-left">
+                        CavaCode – dizaynı funksional koda çevirən gənc və enerjili <br> dev komandasıdır. Figma-dan real vebsayta
+                        gedən prosesi <br> sadələşdiririk, nəticədə isə sürətli, responsiv və modern <br>saytlar ortaya çıxarırıq. Kiçik
+                        biznesdən şəxsi layihəyə qədər <br> – sayt istəyirsinizsə, sizə uyğun həlli bizdə tapacaqsınız.
+                    </p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="500" class="about-img-div"><img src="./src/img/doodle items.png" alt=""><img class="about-img-man" src="./src/img/Group 62.png" alt=""></div>
+            </div>
         </div>
 
     </section>
+           <script  src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script >
+  AOS.init();
+</script>
+
 </body>
 
 </html>
