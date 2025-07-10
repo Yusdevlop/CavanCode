@@ -248,8 +248,6 @@ border-bottom: 1px #fff solid;
     background-color: #222831;
     color: #fff;
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     flex-direction: column;
     width: 100%;
     height: 150vh;
@@ -378,4 +376,141 @@ border-bottom: 1px #fff solid;
     position: absolute;
     top: 300px;
     left: 130px;    
+}
+/* __________________________SEND MESSAGES EMAİL____________________________________ */
+#send-messages-mail{
+  width: 100%;
+  height: 150vh;
+  background-color: #222831;
+
+}
+
+.section5container{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.send-messages-mail-content-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+.vector4{
+  margin-top: 50px;
+  margin-left: -200px;
+}
+.vector4 {
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+/* Gücləndirilmiş glow effekti */
+@keyframes glowPulse {
+  0% {
+    filter: drop-shadow(0 0 2px rgba(0, 174, 255, 0.4));
+  }
+  50% {
+    filter:
+      drop-shadow(0 0 10px rgba(0, 174, 255, 0.8))
+      drop-shadow(0 0 20px rgba(0, 174, 255, 0.6))
+      drop-shadow(0 0 30px rgba(0, 174, 255, 0.4));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px rgba(0, 174, 255, 0.4));
+  }
+}
+.man2{
+  margin-left: 300px;
+  margin-top: -100px;
+  
+
+}
+#send-messages-mail-content{
+  display: flex;
+  gap: 250px;
+  justify-self: space-between;
+  font-family: "Poppins";
+  color: #fff;
+
+}
+.send-messages-mail-form input{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 7px;
+  padding-left: 10px;
+  background-color: #393E46;
+ 
+}
+.send-messages-mail-form-inputs{
+  margin-bottom: 20px;
+  display: flex;
+  width: 100px;
+  height: 40px;
+  gap: 10px;
+  font-size: 18px;
+  border-radius: 225px;
+  
+
+}
+
+.send-messages-mail-form-textarea textarea{
+  width: 100%;
+  height: 200px;
+  border-radius: 7px;
+  background-color: #393E46;
+  font-size: 18px;
+  padding: 10px;
+  color: #fff;
+}
+.send-messages-mail-form-textarea button{
+  background-color: #00ADB5;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: regular;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.send-messages-mail-form-textarea button{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+
+}
+
+/* Hoverda parlayan glow əlavə edirik */
+.send-messages-mail-form-textarea button:hover {
+  color: #cce5ff;
+  letter-spacing: 2.5px;
+  animation: subtleShake 0.3s ease-in-out infinite alternate;
+  box-shadow:
+    0 0 8px rgba(0, 123, 255, 0.8),
+    0 0 16px rgba(0, 123, 255, 0.6),
+    0 0 24px rgba(0, 123, 255, 0.4);
+}
+
+/* Yüngül titrəmə (horizontal) */
+@keyframes subtleShake {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(1.5px); }
+}
+
+
+
+.send-messages-mail-content span{
+  font-weight: bold;
+  color: #00ADB5;
 }
