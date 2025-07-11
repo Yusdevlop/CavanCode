@@ -1,0 +1,64 @@
+@media screen and (max-width: 576px) {
+   .navbar h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 50px;
+   }
+    
+   .navbar ul{
+       gap: 10px;
+       font-size: 15px;
+   }
+   #homepage h1{
+       font-size: 20px;
+   }
+   .homepage-content{
+    margin-left: 10px;
+    align-items: normal;
+    margin-top: 100px;
+   }
+  .section1container {
+    margin-left: 15px;
+}
+    #homepage h1 span {
+    font-size: 25px;
+}
+.contanct-btn {
+    padding: 5px 5px;
+    margin-bottom: 80px;
+}
+.homepage-img {
+    display: none;
+}
+#scroll-arrow{
+    display: none;
+}
+#about h1 {
+ 
+    font-size: 35px;
+   
+}
+#about h1  span{
+ 
+    font-size: 35px;
+   
+}
+#about p {
+ 
+    font-size: 15px;
+   
+}
+.section2container {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.about-content {
+    margin-top: 80px;
+}
+.about-img2{
+    display: none;
+}
+.btn-arrow{
+    display: none;
+}
+}
