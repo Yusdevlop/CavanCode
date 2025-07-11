@@ -1,27 +1,42 @@
 @media screen and (max-width: 576px) {
-   .navbar h1{
+    .navbar h1 {
         font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px;
+    }
+    .navbar{
+        height: 60px;
+        padding: 0 10px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar ul {
+        gap: 10px;
+        font-size: 15px;
+        justify-content: space-evenly;
+        margin-right: 0px;
+    }
+
+    #homepage h1 {
+        font-size: 20px;
+    }
+
+    .homepage-content {
         margin-left: 10px;
-        margin-right: 50px;
-   }
-    
-   .navbar ul{
-       gap: 10px;
-       font-size: 15px;
-   }
-   #homepage h1{
-       font-size: 20px;
-   }
-   .homepage-content{
-    margin-left: 10px;
-    align-items: normal;
-    margin-top: 100px;
-   }
-  .section1container {
-    margin-left: 15px;
-}
-    #homepage h1 span {
-    font-size: 25px;
+        align-items: normal;
+        margin-top: 100px;
+    }
+
+    .section1container {
+        margin-left: 15px;
+    }
+
+ #homepage h1 span {
+
+    font-size: 23px;
 }
 .contanct-btn {
     padding: 5px 5px;
@@ -30,17 +45,22 @@
 .homepage-img {
     display: none;
 }
-#scroll-arrow{
+#scroll-arrow {
     display: none;
+}
+
+/* ________________ABOUT____________________ */
+#about {
+    height: 75vh;
 }
 #about h1 {
  
-    font-size: 35px;
+    font-size: 30px;
    
 }
 #about h1  span{
  
-    font-size: 35px;
+    font-size: 30px;
    
 }
 #about p {
@@ -50,7 +70,7 @@
 }
 .section2container {
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 .about-content {
     margin-top: 80px;
@@ -60,24 +80,67 @@
 }
 .btn-arrow{
     display: none;
+
+
 }
+/* ________________CONTACT US____________________ */
 
+    .section5container {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+    #send-messages-mail{
+        height: 75vh;
+    }
+    #send-messages-mail-content{
+                gap: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+    }
+    .send-messages-mail-content-text{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    .send-messages-mail-form{
+        margin-top: 50px;
+    }
+    .vector4{
+        display: none;
+    }
+    .man2{
+        display: none;
+    }
 
+/* ________________FOOTER____________________ */
 
+    .footer-container {
+        padding: 10px;
+        margin: 0;
+        height: auto;
 
+    }
 
+    .footer-content h1 {
+        font-size: 20px;
+        text-align: center;
 
-/* ___________Foter__________________ */
-.footer-content h1 {
-    font-size: 20px;
-    margin-top: 50px;
-    padding: 20px;
-    text-align: center; -
+    }
 
-.fotter-content p {
-    font-size: 15px;
-    text-align: center;
-    margin-top: 20px;
+    .footer-content p {
+        text-align: center;
+        font-size: 10px;
+    }
 
+    .footer-socials {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
 
+    .footer-socials a {
+        font-size: 20px;
+    }
 }
