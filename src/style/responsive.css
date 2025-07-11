@@ -61,4 +61,23 @@
 .btn-arrow{
     display: none;
 }
+
+
+
+
+
+
+/* ___________Foter__________________ */
+.footer-content h1 {
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center; -
+
+.fotter-content p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+
+
 }
