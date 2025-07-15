@@ -8,6 +8,44 @@
 
 html {
   scroll-behavior: smooth;
+  /* smooth scroll bütün linklər üçün */
+}
+
+header {
+  border-bottom: 1px #fff solid;
+}
+
+.navbar {
+  font-family: "Poppins";
+  color: #fff;
+  width: 100%;
+  height: 60px;
+  background-color: #222831;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  margin-left: 80px;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  color: #fff;
+
+
+}
+
+
+.navbar-ul {
+  display: flex;
+  font-size: 18px;
+  font-weight: regular;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-right: 100px;
 }
 
 .typewriter {
@@ -19,6 +57,13 @@ html {
   font-family: monospace;
   font-size: 36px;
   color: white;
+  /*
+   rəngi istəyinə uyğun dəyiş */
+
+  /* Yazılma + blink bir yerdə */
+  /* animation:
+    typing 3s steps(30, end) forwards,
+    hide-caret 0.5s ease-in 3s forwards; 3s sonra cursor yox olsun */
   animation:
     typing 3.5s steps(35, end) forwards,
     hide-caret 0.5s ease-in 5s forwards,
@@ -27,6 +72,9 @@ html {
 }
 
 @keyframes typing {
+
+  /* from { width: 0px;  }
+  to { width: 100% ;} */
   0% {
     width: 0;
   }
@@ -67,6 +115,7 @@ html {
 }
 
 
+/* ----------------------_________SECTION 1-HOME PAGE____________---------------------- */
 .section1container {
   margin-left: 100px;
 }
@@ -107,6 +156,18 @@ html {
   font-weight: regular;
 }
 
+/* .contanct-btn{
+    background-color: ;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: regular;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+} */
 .contanct-btn {
   background-color: #007bff;
   color: white;
@@ -124,6 +185,7 @@ html {
 
 }
 
+/* Hoverda parlayan glow əlavə edirik */
 .contanct-btn:hover {
   color: #cce5ff;
   letter-spacing: 2.5px;
@@ -134,6 +196,7 @@ html {
     0 0 24px rgba(0, 123, 255, 0.4);
 }
 
+/* Yüngül titrəmə (horizontal) */
 @keyframes subtleShake {
   0% {
     transform: translateX(0);
@@ -147,6 +210,7 @@ html {
 
 
 
+/* SVG üzərindəki hover glow */
 .btn-arrow {
   margin-top: 500px;
   margin-left: 280px;
@@ -159,6 +223,7 @@ html {
   animation: glowPulse 3s ease-in-out infinite;
 }
 
+/* Gücləndirilmiş glow effekti */
 @keyframes glowPulse {
   0% {
     filter: drop-shadow(0 0 2px rgba(0, 174, 255, 0.4));
@@ -215,6 +280,7 @@ html {
   left: 0;
 }
 
+/* ______________________SECTION 2-ABOUT PAGE__________________ */
 
 #about {
   background-color: #222831;
@@ -265,6 +331,7 @@ html {
   animation: glowPulse 3s ease-in-out infinite;
 }
 
+/* Gücləndirilmiş glow effekti */
 @keyframes glowPulse {
   0% {
     filter: drop-shadow(0 0 2px rgba(0, 174, 255, 0.4));
@@ -507,9 +574,58 @@ html {
 }
 
 /*_______________________________________________ Footer___________________________________________________ */
+.footer-container {
+  background-color: #222831;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-
-.container {
-  max-width: 1440px;
   width: 100%;
+  height: 300px;
+
+}
+
+.footer-container h1 {
+  font-family: "Poppins";
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+
+}
+
+.footer-container p {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: regular;
+  margin-top: 20px;
+}
+
+.footer-container a {
+  color: #00ADB5;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: regular;
+  margin-top: 20px;
+  gap: 20px;
+  height: 40px;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.footer-socials a {
+  font-size: 30px;
+  color: #00bcd4;
+  transition: 0.3s;
+}
+
+.footer-socials a:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.2);
+  color: white;
 }
